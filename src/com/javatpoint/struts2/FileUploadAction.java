@@ -9,7 +9,7 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class FileUploadAction extends ActionSupport implements ServletContextAware {
 	private File userImage;
-	private String userImageConten;
+	private String userImageConte;
 	private String userImageFileName;
 	private ServletContext servletContext;
 	
